@@ -25,7 +25,13 @@
             color: white;
         }
 
-        tbody > tr:nth-child(2n){
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even){/* 2-1 ou 2n */
             background-color: lightgray;
         }
 
